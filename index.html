@@ -43,12 +43,12 @@
 
   .team_member p {
     font-size: 10px;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
 
   .team_member h4 {
     font-size: 20px;
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .headshot {
@@ -118,7 +118,7 @@
       <img class="headshot" src="img/sera_headshot.jpg">
       <h4>Sera Hamilton</h4>
       <p>seras@mit.edu</p>
-      <p>AeroAstro!
+      <p>AeroAstro & Electrical Engineering and Computer Science!
       </p>
     </div>
     <div class="w3-card team_member">
@@ -142,28 +142,33 @@
       <p>Math & Meche!
       </p>
     </div>
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-grey" style="padding:5% 5%;text-align:center;" id="about">
-    <div class="w3-card w3-white" style="width:100%">
-      <h1>About Us</h1>
-    </div>
-    <div class="w3-cell w3-red" style="width:30%;float:left;min-height: 200px;">
-      <i class="fa fa-folder"></i> <!--Put an image here or something?-->
-      <p>Do something that is unique here. (You can change this to team values or something?)</p>
-    </div>
-    <div class="w3-cell w3-white" style="width:30%;margin-left:5%;float:left;min-height: 200px;">
-      <i class="fa fa-folder"></i><!--Put an image here or something?-->
-      <p>The TAs are not that unique, so we are just writing a lot of filler things here so we look cool.</p>
-    </div>
-    <div class="w3-cell w3-blue" style="width:30%;margin-left:5%;float:left;min-height: 200px;">
-      <i class="fa fa-folder"></i><!--Put an image here or something?-->
-      <p>Si vos es pulchellus frigus hanc: et admonitus in hoc genere digna est. It tristis et non dederint tibi.
-        Benediximus</p>
+    <div class="w3-card team_member">
+      <img class="headshot" src="img/bb8.png">
+      <h4>Willow Pickernell</h4>
+      <p>wrpicker@mit.edu</p>
+      <p>Electrical Engineering and Computer Science!
+      </p>
     </div>
   </div>
 
+  <div class="w3-container w3-grey" style="padding:5% 5%; text-align:center;" id="about">
+    <div class="w3-row" style="display: flex; align-items: flex-start; justify-content: center;">
+      <div class="w3-cell" style="flex: 1; height: 800px; text-align: center; overflow: hidden;">
+        <img class="headshot" src="img/car.jpg" style="width: 100%; height: auto; max-height: 100%; object-fit: cover; border-radius: 8px;">
+      </div>
+      <div class="w3-cell" style="flex: 1; height: 400px; display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
+        <div class="about-box" style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0,0,0,0.1); text-align: center; width: 100%; max-width: 600px;">
+          <h1>About Us</h1>
+          <h3 style="margin-top: 20px;">
+            We are a team of scientists and engineers developing the autonomy stack for our robot. 
+            <br><br>Equipped with LIDAR and a ZED depth camera, the car's sensors will allow us to create various nodes in ROS2.
+            <br><br>Check out our <a href="labs/" class="w3-hover-text-blue">labs</a> to see our wall follower, parking controller, and SLAM implementations, or 
+            <a href="videos/" class="w3-hover-text-blue">videos</a> to see our car in action!
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>  
 
 </body>
 
